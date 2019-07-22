@@ -69,6 +69,13 @@ else {
     print("Sushi is better than Starbucks.")
 }
 
+var gitHub = "Rocks"
+if gitHub == "Rocks" {
+    print("You did it!")
+}
+else {
+    print("Try again.")
+}
 
 
 
