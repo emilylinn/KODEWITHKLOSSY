@@ -77,5 +77,74 @@ else {
     print("Try again.")
 }
 
+//call your dog over, get the collar, get the leash, put the collar onto your dog, attatch leash to collar, open door, step outside door, start walking with dog,
 
+//func walkDog() {
+//    print("Call dog over.")
+//    print("Get leash.")
+//    print("Attach leash to collar.")
+//    print("Open door.")
+//    print("Walk outside.")
+//    print("Close and lock door.")
+//    print("Walk with dog.")
+//}
+//walkDog()
+
+func makeCereal() {
+    print("Get cereal box.")
+    print("Open fridge.")
+    print("Take out milk.")
+    print("Get a bowl and spoon.")
+    print("Pour milk into bowl.")
+    print("Pour cereal into bowl of milk.")
+    print("Eat your cereal using spoon.")
+}
+makeCereal()
+
+func eatcupcakeSandwichstyle() {
+    print("Take a cupcake.")
+    print("Cut cupcake in half.")
+    print("Take bottom half of cupcake and place on top of the frosting bit on the other side of the cupcake.")
+    print("Take a bite.")
+}
+eatcupcakeSandwichstyle()
+
+//func walkDog (numberOfDogs : Int) {
+//    print("There are \(numberOfDogs) dogs in the house")
+//}
+//walkDog(numberOfDogs : 4)
+
+func Hello (name : String) {
+    print("Hello \(name)")
+}
+Hello(name : "Emily")
+
+func myAge() -> Int {
+    return 18
+}
+print(myAge())
+
+func walkDog(numberOfDogs : Int) -> Int {
+    var lengthOfWalk = numberOfDogs * 15
+    return lengthOfWalk
+}
+let minutesToWalk = walkDog(numberOfDogs : 3)
+print("Please walk the dogs. I will expect to see you complete that task in \(minutesToWalk) minutes!")
+//The let was used bc minutesToWalk is not changed. If you're curious, try starting with var then noticing the warning Xcode throws.
+//Collections are data types that hold multiple things
+//arrays are ordered collections that stores multiple values of the same type
+
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
+friendsOfKarlie
+print("\(friendsOfKarlie[0]) is awesome.")
+friendsOfKarlie[2] = "Josh Kushner"
+friendsOfKarlie[2]
+
+var roleModels = ["Mom", "Eva", "Sylvia"]
+roleModels
+roleModels[1]
+roleModels.append ("Michelle Obama")
+roleModels.remove (at: 3)
+roleModels[0] = "Barack Obama"
+print(roleModels)
 
