@@ -148,3 +148,60 @@ roleModels.remove (at: 3)
 roleModels[0] = "Barack Obama"
 print(roleModels)
 
+//ARRAYS IN IG: followers, list of photos stored, in comments section it says the person's username before their comment
+//dictionaries: similar to arrays, collection of info, but can store info in relationship to something else, not ordered (no index), each piece of  data has a label called key and piece of data called value
+
+//DICTIONARY BELOW:
+var perfectTen = [
+    "almond four" : "3 and 1/2 cups",
+    "gluten-free oats" : "2 cups" ,
+    "mini chocolate chips" : "1 cup",
+]
+perfectTen["almond flour"] = "4 cups"
+print(perfectTen)
+//-> ["almond flour" : "4 cups", "gluten-free oats": "2 cups". "mini chocolate chips": "1 cup"
+print(perfectTen["almond flour"]!)
+//-> "4 cups"[
+
+var somePeople = [
+    "Rachel" : "October 15, 2003" ,
+    "Emily" : "October 27, 2003" ,
+    "Eva" : "July 10, 1998" ,
+]
+print(somePeople)
+
+//UNWRAPPING BELOW: the exclamation point between bracken and parenthesis
+print(somePeople["Rachel"]!)
+//-> "October 15, 2003"
+
+//Removing Info:
+print (perfectTen)
+//-> ["almond flour", "gluten-free oats", "mini chocolate chips"]
+print(Array(perfectTen.keys))
+
+//FAMILY TREE DICTIONARY BELOW:
+var familyTree = [
+    "mom" : "Lan" ,
+    "dad" : "Dong" ,
+    "sister-1" : "Sylvia" ,
+    "sister-2" : "Eva" ,
+    "dog" : "Bentley" ,
+    "hamster" : "Lucy" ,
+    "bestFriend" : "Rachel" ,
+    "littleCousin" : "Winston" ,
+    "bigCousin" : "Frances" ,
+    "uncle" : "David" ,
+    "aunt" : "Kiu" ,
+]
+
+familyTree["hamster"] = nil
+print("\(familyTree)")
+
+print(familyTree["dog"]!)
+
+
+
+
+
+
+
