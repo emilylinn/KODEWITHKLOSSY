@@ -18,8 +18,8 @@ struct Dogs {
 class DogsTableViewController: UITableViewController {
     var allDogs = [
         Dogs(id: 1,
-              title: "Jack Russell Terrier",
-              text: "The Jack Russell Terrier is a small terrier that has its origins in fox hunting in England.",
+              title: "Ben Ben",
+              text: "My baby brother.",
               image: "jrt"),
         Dogs(id: 2,
               title: "Old English Sheepdog",
